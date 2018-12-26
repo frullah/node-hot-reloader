@@ -30,8 +30,6 @@ const cli = yargs
 
 const {argv} = cli;
 
-console.log(argv);
-
 if (argv._.length == 0) {
   console.log('Need entry file');
   process.exit(0);
