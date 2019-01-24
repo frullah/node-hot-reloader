@@ -6,9 +6,6 @@ const yargs = require('yargs');
 const hotReload = require('../lib');
 const packageJson = require('../package.json');
 
-// const usage = `Hot reload for nodejs
-// Usage: $0 <entry-file> [...options]`;
-
 const cli = yargs
   .options({
     watch: {
